@@ -146,26 +146,164 @@ p {
   margin-top: 40px;
 }
 
-.services .box{
+.services .box {
   width: 300px;
   margin: 0 auto;
   background: #fff;
   padding: 20px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0,0.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
 }
 
 .services .box .iconBx {
   margin-top: 25px;
 }
 
-.services .box .iconBx img{
+.services .box .iconBx img {
   max-width: 70px;
   margin-bottom: 15px;
 }
 
-.services .box h2{
+.services .box h2 {
   font-size: 18px;
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 700px;
+}
+
+.stats {
+  background: #000;
+  padding-top: 250px;
+  margin-top: -250px
+}
+
+.stats h3,
+.stats p {
+  color: #fff;
+}
+
+.statsBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.statsBox h2 {
+  color: #fff;
+  font-size: 36px;
+}
+
+.statsBox h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.workBx {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 60px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.workBx .brand {
+  position: relative;
+  background: #4978ff;
+  min-height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workBx .brand:hover {
+  background: #000;
+}
+
+.workBx .brand a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.workBx .brand:hover a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.teamBx{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 60px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.teamBx .member{
+  position: relative;
+  background: #000;
+  min-height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamBx .member .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.teamBx .member .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teamBx .member .details{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  transition: 0.2s;
+  opacity: 0;
+}
+
+.teamBx .member:hover .details{
+    opacity: 1;
+}
+
+.teamBx .member .details h2{
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.teamBx .member .details h2 span{
+  display: block;
+  font-size: 12px;
+  font-weight: lighter;
+
 }
