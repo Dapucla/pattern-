@@ -15,7 +15,6 @@
 
   <!-- HEADER -->
   <header id="header">
-
     <a href="#" class="logo">Logo</a>
     <ul>
       <li>
@@ -37,16 +36,21 @@
         <a href="#contact">Contact</a>
       </li>
     </ul>
-
   </header>
 
   <!-- Banner Section -->
   <section class="banner" id="home">
-
-    <h2> We Make <span>Brands</span> Matter </h2>
-
+    <h2> We Make<br>
+      <span>Brands</span> Matter </h2>
   </section>
 
+  <!-- Scripts -->
+  <script type="text/javascript">
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
 
 
 </body>

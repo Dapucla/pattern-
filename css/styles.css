@@ -1,19 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
   min-height: 1000px;
-  background: #000;
 }
 
-header{
+header {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -23,7 +22,13 @@ header{
   transition: 0.6s;
 }
 
-header .logo{
+header.sticky {
+  padding: 5px 100px;
+  background: #fff;
+  border-bottom: 1px solid (0,0,0,.1);
+}
+
+header .logo {
   position: relative;
   font-weight: bold;
   color: #fff;
@@ -34,24 +39,54 @@ header .logo{
   transition: 0.6s;
 }
 
-header ul{
+header ul {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header ul li{
+header ul li {
   position: relative;
   list-style: none;
 }
 
-header ul li a{
+header ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   letter-spacing: 2px;
   font-weight: 300;
   transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a
+{
+  color: #000;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2{
+  color: #fff;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 7px;
+}
+
+.banner h2 span{
+  color: #4978ff;
 }
