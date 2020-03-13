@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js">
 
 <body>
 
@@ -42,8 +45,13 @@
 
   <!-- Banner Section -->
   <section class="banner" id="home">
-    <h2> Мы делаем<br>
-      <span>Бренд</span> Заметным </h2>
+
+    <div class=" animated bounceInLeft"> <br>
+      <h2> Мы делаем<br>
+        <span>Бренд</span> Заметным
+      </h2>
+    </div>
+
   </section>
 
   <!-- About Section -->
@@ -73,7 +81,7 @@
       <div class="services">
         <div class="box">
           <div class="iconBx">
-            <img src="images/icon1.png" />
+            <img src="images/icon1.png" alt="">
           </div>
           <div class="content">
             <h2>Дизайн</h2>
@@ -85,7 +93,7 @@
         </div>
         <div class="box">
           <div class="iconBx">
-            <img src="images/icon2.png" />
+            <img src="images/icon2.png" alt="">
           </div>
           <div class="content">
             <h2>Разработка</h2>
@@ -97,7 +105,7 @@
         </div>
         <div class="box">
           <div class="iconBx">
-            <img src="images/icon3.png" />
+            <img src="images/icon3.png" alt="">
           </div>
           <div class="content">
             <h2>Брендирование</h2>
@@ -210,7 +218,7 @@
       <div class="teamBx">
         <div class="member">
           <div class="imgBx">
-            <img src="images/1.jpg" />
+            <img src="images/1.jpg" alt="">
           </div>
           <div class="details">
             <div>
@@ -220,7 +228,7 @@
         </div>
         <div class="member">
           <div class="imgBx">
-            <img src="images/2.jpg" />
+            <img src="images/2.jpg" alt="">
           </div>
           <div class="details">
             <div>
@@ -230,7 +238,7 @@
         </div>
         <div class="member">
           <div class="imgBx">
-            <img src="images/3.jpg" />
+            <img src="images/3.jpg" alt="">
           </div>
           <div class="details">
             <div>
@@ -240,7 +248,7 @@
         </div>
         <div class="member">
           <div class="imgBx">
-            <img src="images/4.jpg" />
+            <img src="images/4.jpg" alt="">
           </div>
           <div class="details">
             <div>
@@ -265,10 +273,10 @@
         <form>
           <div class="row100">
             <div class="inputBx50">
-              <input type="text" name="" placeholder="Имя">
+              <input type="text" name="sdc" placeholder="Имя">
             </div>
             <div class="inputBx50">
-              <input type="text" name="" placeholder="Адрес Электронной Почты">
+              <input type="text" name="adsfv" placeholder="Адрес Электронной Почты">
             </div>
           </div>
           <div class="row100">
@@ -278,7 +286,7 @@
           </div>
           <div class="row100">
             <div class="inputBx100">
-              <input type="submit" name="" value="Пуск" />
+              <input type="submit" name="sadf" value="Пуск" />
             </div>
           </div>
         </form>
@@ -286,13 +294,13 @@
       <div class="sci">
         <ul>
           <li>
-            <a href="#"><img src="images/facebook.png" /></a>
+            <a href="#"><img src="images/facebook.png" alt=""></a>
           </li>
           <li>
-            <a href="#"><img src="images/twitter.png" /></a>
+            <a href="#"><img src="images/twitter.png" alt=""></a>
           </li>
           <li>
-            <a href="#"><img src="images/linkedin.png" /></a>
+            <a href="#"><img src="images/linkedin.png" alt=""></a>
           </li>
         </ul>
       </div>
@@ -308,7 +316,8 @@
       var header = document.querySelector("header");
       header.classList.toggle("sticky", window.scrollY > 0);
     })
-    function toggle(){
+
+    function toggle() {
       var header = document.querySelector("header");
       header.classList.toggle("active");
     }
