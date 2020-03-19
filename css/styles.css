@@ -110,6 +110,7 @@ header.sticky ul li a {
 }
 
 .mxw800p {
+  text-align: center;
   max-width: 800px;
   margin: 0 auto;
 }

@@ -14,57 +14,68 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js">
 
 <body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header id="header">
+      <div class="header__logo">
+        <a href="#" class="logo">Logo</a>
+      </div>
+      <div class="header__navigation">
+        <ul>
+          <li>
+            <a href="#home" onclick="toggle()">Главная</a>
+          </li>
+          <li>
+            <a href="#about" onclick="toggle()">О нас</a>
+          </li>
+          <li>
+            <a href="#services" onclick="toggle()">Сервисы</a>
+          </li>
+          <li>
+            <a href="#portfolio" onclick="toggle()">Портфолио</a>
+          </li>
+          <li>
+            <a href="#team" onclick="toggle()">Команда</a>
+          </li>
+          <li>
+            <a href="#contact" onclick="toggle()">Контакты</a>
+          </li>
+        </ul>
+      </div>
 
-
-  <!-- HEADER -->
-  <header id="header">
-    <a href="#" class="logo">Logo</a>
-    <ul>
-      <li>
-        <a href="#home" onclick="toggle()">Главная</a>
-      </li>
-      <li>
-        <a href="#about" onclick="toggle()">О нас</a>
-      </li>
-      <li>
-        <a href="#services" onclick="toggle()">Сервисы</a>
-      </li>
-      <li>
-        <a href="#portfolio" onclick="toggle()">Портфолио</a>
-      </li>
-      <li>
-        <a href="#team" onclick="toggle()">Команда</a>
-      </li>
-      <li>
-        <a href="#contact" onclick="toggle()">Контакты</a>
-      </li>
-    </ul>
-    <div class="toggle" onclick="toggle()">
-    </div>
+      <div class="toggle" onclick="toggle()">
+      </div>
+  </div>
   </header>
 
   <!-- Banner Section -->
   <section class="banner" id="home">
-
-    <div class=" animated bounceInLeft"> <br>
-      <h2> Мы делаем<br>
-        <span>Бренд</span> Заметным
-      </h2>
+    <div class="title">
+      <div class="title__text">
+        <div class=" animated bounceInLeft"> <br>
+          <h2> Мы делаем<br>
+            <span>Бренд</span> Заметным
+          </h2>
+        </div>
+      </div>
     </div>
-
   </section>
 
   <!-- About Section -->
   <section class="sec" id="about">
-    <div class="content">
-      <div class="mxw800p">
-        <h3>Кто мы такие </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <a href="#" class="btn">О Нас</a>
+    <div class="about">
+      <div class="about__content">
+        <div class=" animated bounceInDown">
+          <div class="mxw800p">
+            <h3>Кто мы такие </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" class="btn">О Нас</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -72,47 +83,55 @@
   <!-- Services -->
   <section class="sec" id="services">
     <div class="content">
-      <div class="mxw800p">
-        <h3>Что Мы Делаем </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <div class="services__text">
+        <div class="mxw800p">
+          <h3>Что Мы Делаем </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
       </div>
       <div class="services">
-        <div class="box">
-          <div class="iconBx">
-            <img src="images/icon1.png" alt="">
-          </div>
-          <div class="content">
-            <h2>Дизайн</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="iconBx">
-            <img src="images/icon2.png" alt="">
-          </div>
-          <div class="content">
-            <h2>Разработка</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+        <div class="services__card__1">
+          <div class="box">
+            <div class="iconBx">
+              <img src="images/icon1.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Дизайн</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="box">
-          <div class="iconBx">
-            <img src="images/icon3.png" alt="">
+        <div class="services__card__2">
+          <div class="box">
+            <div class="iconBx">
+              <img src="images/icon2.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Разработка</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
-          <div class="content">
-            <h2>Брендирование</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+        </div>
+        <div class="services__card__2">
+          <div class="box">
+            <div class="iconBx">
+              <img src="images/icon3.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Брендирование</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -122,29 +141,33 @@
   <!-- Stats -->
   <section class="sec stats">
     <div class="content">
-      <div class="mxw800p">
-        <h3>Наши Достижения </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco ficia deserunt mollit anim id est laborum.
-        </p>
+      <div class="stats__title">
+        <div class="mxw800p">
+          <h3>Наши Достижения </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco ficia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-      <div class="statsBox">
-        <div class="box">
-          <h2>1200+</h2>
-          <h4>Проектов</h4>
-        </div>
-        <div class="box">
-          <h2>800+</h2>
-          <h4>Счастливых Клиентов</h4>
-        </div>
-        <div class="box">
-          <h2>150+</h2>
-          <h4>Стран</h4>
-        </div>
-        <div class="box">
-          <h2>50+</h2>
-          <h4>Наград</h4>
+      <div class="stats__list">
+        <div class="statsBox">
+          <div class="box">
+            <h2>1200+</h2>
+            <h4>Проектов</h4>
+          </div>
+          <div class="box">
+            <h2>800+</h2>
+            <h4>Счастливых Клиентов</h4>
+          </div>
+          <div class="box">
+            <h2>150+</h2>
+            <h4>Стран</h4>
+          </div>
+          <div class="box">
+            <h2>50+</h2>
+            <h4>Наград</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -153,53 +176,57 @@
   <!-- Portfolio -->
   <section class="sec work" id="portfolio">
     <div class="content">
-      <div class="mxw800p">
-        <h3>Последние Работы</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco ui officia deserunt mollit anim id est laborum.
-        </p>
+      <div class="work__title">
+        <div class="mxw800p">
+          <h3>Последние Работы</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco ui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-      <div class="workBx">
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
-        </div>
-        <div class="brand">
-          <a href="#">
-            <h2>Имя бренда</h2>
-          </a>
+      <div class="work__boxes">
+        <div class="workBx">
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="#">
+              <h2>Имя бренда</h2>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -208,51 +235,55 @@
   <!-- Team -->
   <section class="sec work" id="team">
     <div class="content">
-      <div class="mxw800p">
-        <h3>Наши Эксперты</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco ui officia deserunt mollit anim id est laborum.
-        </p>
+      <div class="team__title">
+        <div class="mxw800p">
+          <h3>Наши Эксперты</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco ui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-      <div class="teamBx">
-        <div class="member">
-          <div class="imgBx">
-            <img src="images/1.jpg" alt="">
-          </div>
-          <div class="details">
-            <div>
-              <h2>Некая Дама<br /><span>Программист</span></h2>
+      <div class="team__card">
+        <div class="teamBx">
+          <div class="member">
+            <div class="imgBx">
+              <img src="images/1.jpg" alt="">
+            </div>
+            <div class="details">
+              <div>
+                <h2>Некая Дама<br /><span>Программист</span></h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="member">
-          <div class="imgBx">
-            <img src="images/2.jpg" alt="">
-          </div>
-          <div class="details">
-            <div>
-              <h2>Некий Господин<br /><span>Креативный Директор</span></h2>
+          <div class="member">
+            <div class="imgBx">
+              <img src="images/2.jpg" alt="">
+            </div>
+            <div class="details">
+              <div>
+                <h2>Некий Господин<br /><span>Креативный Директор</span></h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="member">
-          <div class="imgBx">
-            <img src="images/3.jpg" alt="">
-          </div>
-          <div class="details">
-            <div>
-              <h2>Некий Господин<br /><span>Дизайнер</span></h2>
+          <div class="member">
+            <div class="imgBx">
+              <img src="images/3.jpg" alt="">
+            </div>
+            <div class="details">
+              <div>
+                <h2>Некий Господин<br /><span>Дизайнер</span></h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="member">
-          <div class="imgBx">
-            <img src="images/4.jpg" alt="">
-          </div>
-          <div class="details">
-            <div>
-              <h2>Некая Дама<br /><span>Менеджер по прадажам</span></h2>
+          <div class="member">
+            <div class="imgBx">
+              <img src="images/4.jpg" alt="">
+            </div>
+            <div class="details">
+              <div>
+                <h2>Некая Дама<br /><span>Менеджер по прадажам</span></h2>
+              </div>
             </div>
           </div>
         </div>
@@ -263,53 +294,63 @@
   <!-- Contact -->
   <section class="sec contact" id="contact">
     <div class="content">
-      <div class="mxw800p">
-        <h3>Отправьте Нам Сообщение</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, anim id est laborum.
-        </p>
+      <div class="contact__title">
+        <div class="mxw800p">
+          <h3>Отправьте Нам Сообщение</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, anim id est laborum.
+          </p>
+        </div>
       </div>
-      <div class="contactForm">
-        <form>
-          <div class="row100">
-            <div class="inputBx50">
-              <input type="text" name="sdc" placeholder="Имя">
+      <div class="contact__form">
+        <div class="contactForm">
+          <form>
+            <div class="contact__fields">
+              <div class="row100">
+                <div class="inputBx50">
+                  <input type="text" name="sdc" placeholder="Имя">
+                </div>
+                <div class="inputBx50">
+                  <input type="text" name="adsfv" placeholder="Адрес Электронной Почты">
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBx100">
+                  <textarea placeholder="Ваше Сообщение"></textarea>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBx100">
+                  <input type="submit" name="sadf" value="Пуск" />
+                </div>
+              </div>
             </div>
-            <div class="inputBx50">
-              <input type="text" name="adsfv" placeholder="Адрес Электронной Почты">
-            </div>
-          </div>
-          <div class="row100">
-            <div class="inputBx100">
-              <textarea placeholder="Ваше Сообщение"></textarea>
-            </div>
-          </div>
-          <div class="row100">
-            <div class="inputBx100">
-              <input type="submit" name="sadf" value="Пуск" />
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
       <div class="sci">
-        <ul>
-          <li>
-            <a href="#"><img src="images/facebook.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/twitter.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/linkedin.png" alt=""></a>
-          </li>
-        </ul>
+        <div class="sci__networks__icons">
+          <ul>
+            <li>
+              <a href="#"><img src="images/facebook.png" alt=""></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/linkedin.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <p class="copyright">
-        Спроектировано и Разработано <a href="#">Даниилом Алексеевым</a>
-      </p>
+      <div class="sci__signature">
+        <p class="copyright">
+          Спроектировано и Разработано <a href="#">Даниилом Алексеевым</a>
+        </p>
+      </div>
     </div>
   </section>
-
+  </div>
   <!-- Scripts -->
   <script type="text/javascript">
     window.addEventListener("scroll", function() {
