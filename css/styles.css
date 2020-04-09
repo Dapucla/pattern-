@@ -5,6 +5,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
 body {
   min-height: 1000px;
 }
@@ -503,29 +511,40 @@ p {
     width: 100%;
   }
 
-  .stats{
+  .stats {
     padding-top: 250px;
   }
 
-  .row100{
+  .row100 {
     flex-direction: column;
   }
 
   .contactForm .row100 .inputBx50,
-  .contactForm .row100 .inputBx100{
+  .contactForm .row100 .inputBx100 {
     width: 100%;
     margin: 0;
   }
 
-  .sci{
+  .sci {
     margin: 20px;
   }
 
-  .sci ul li a img{
+  .sci ul li a img {
     font-size: 24px;
   }
 
   h3 {
     font-size: 36px;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
