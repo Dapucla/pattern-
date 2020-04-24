@@ -1,4 +1,6 @@
-<html lang="en">
+<!DOCTYPE html>
+
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
@@ -19,13 +21,13 @@
 
       <nav role="navigation" class="container__navbar">
          <ul class="container__menu-list">
-            <li aria-label="Normal page" , tabindex="0" , id="#active"><a href="index.html" id="normal">Прежняя страница
+            <li aria-label="Normal page" tabindex="0" id="#active"><a href="index.html" id="normal">Прежняя страница
                </a>
             </li>
-            <li aria-label="Contacts" , tabindex="2"><a href="#aboutus" id="about">О нас</a></li>
-            <li aria-label="Contacts" , tabindex="2"><a href="#services" id="services">Сервисы</a></li>
-            <li aria-label="Contacts" , tabindex="2"><a href="#">Наши эксперты</a></li>
-            <li aria-label="Contacts" , tabindex="2"><a href="#">Контакты</a></li>
+            <li aria-label="Contacts" tabindex="2"><a href="#aboutus" id="about">О нас</a></li>
+            <li aria-label="Contacts" tabindex="2"><a href="#services" id="service">Сервисы</a></li>
+            <li aria-label="Contacts" tabindex="2"><a href="#ourexperts">Наши эксперты</a></li>
+            <li aria-label="Contacts" tabindex="2"><a href="#foot">Контакты</a></li>
 
          </ul>
 
@@ -47,12 +49,12 @@
    </section>
 
 
-   <section id="#aboutus">
+   <section id="aboutus">
 
-      <div role="main" class="mainInfo" role="main" id="aboutus">
+      <div role="main" class="mainInfo">
 
-         <h1 aria-label="about us" , tabindex="3">Кто мы</h1>
-         <p aria-label="about us paragraph" , tabindex="4" id="aboutUsText">
+         <h1 aria-label="about us" tabindex="3">Кто мы</h1>
+         <p aria-label="about us paragraph" tabindex="4" id="aboutUsText">
             Lorem ipsum dolor sit amet consectetur adip totamilique quibusdam rem tenetur sed voluptatibus eveniet.
             totamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus
             eveniet
@@ -64,13 +66,13 @@
 
    <!-- SERVICES -->
 
-   <section id="#services">
+   <section id="services">
 
-      <div class="serv" , role="complementary">
-         <h2 class="serv__title" , tabindex="5" aria-label="Что мы делаем" id="prefTitle"> Что мы делаем</h2>
-         <div class="serv__items">
+      <div class="serv" role="complementary">
+         <h2 class="serv__title" tabindex="3" aria-label="Что мы делаем" id="prefTitle"> Что мы делаем</h2>
+         <div class="serv__items" id="#services">
             <div class="serv__item1" tabindex="6" id="item1">
-               <img src="images/icon1.png" alt="decorative design image of pencil" width="100px" height="100px">
+               <img src="images/icon1.png" alt="decorative design image of pencil" class="img-set1">
                <h3>Design</h3>
                <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -79,8 +81,8 @@
                </p>
             </div>
 
-            <div class="serv__item2" , tabindex="7" id="item2">
-               <img src="images/icon2.png" alt="decorative design image of computer" width="100px" height="100px">
+            <div class="serv__item2" tabindex="7" id="item2">
+               <img src="images/icon2.png" alt="decorative design image of computer" class="img-set1">
 
                <h3>Program</h3>
                <p>
@@ -89,8 +91,8 @@
                   sed dicta impedit, veritatis ad tempora aspernatur
                </p>
             </div>
-            <div class="serv__item3" , tabindex="8" id="item3">
-               <img src="images/icon3.png" alt="decorative design image of human" width="100px" height="100px">
+            <div class="serv__item3" tabindex="8" id="item3">
+               <img src="images/icon3.png" alt="decorative design image of human" class="img-set1">
                <h3>Upgrade</h3>
                <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -103,61 +105,95 @@
 
    </section>
    <!-- WHAT WE DO??? -->
+   <section id="ourexperts">
+      <div class="gallery" role="complementary">
+         <h2 tabindex="9" aria-label="what we do?>" id="whatwedo">Наши эксперты</h2>
+         <div class="content">
+            <div class="team__title">
 
-   <div class="gallery" , role="complementary">
-      <h2 tabindex="9" , aria-label="what we do?>" id="whatwedo">Наши эксперты</h2>
-      <div class="content">
-         <div class="team__title">
-
-         </div>
-         <div class="team__card" width="200px" height="800px">
-            <div class="teamBx" width="200px" height="800px">
-               <div class="member" width="200px" height="800px" id="natasha">
-                  <div class="imgBx" width="200px" height="800px" id="natasha">
-                     <img src="images/1.jpg" alt="Our expert image" width="200px" height="800px">
-                  </div>
-                  <div class="details" width="200px" height="800px">
-                     <div width="200px" height="800px">
-                        <h2>Некая Дама<br /><span>Программист</span></h2>
+            </div>
+            <div class="team__card">
+               <div class="teamBx">
+                  <div class="member" id="natasha">
+                     <div class="imgBx">
+                        <img src="images/1.jpg" alt="Our expert image">
+                     </div>
+                     <div class="details">
+                        <div>
+                           <h2>Некая Дама<br /><span>Программист</span></h2>
+                        </div>
                      </div>
                   </div>
-               </div>
-               <div class="member" id="masha">
-                  <div class="imgBx">
-                     <img
-                        src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-                        alt="Our expert image">
-                  </div>
-                  <div class="details">
-                     <div>
-                        <h2>Некий Господин<br /><span>Креативный Директор</span></h2>
+                  <div class="member" id="masha">
+                     <div class="imgBx">
+                        <img
+                           src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                           alt="Our expert image">
+                     </div>
+                     <div class="details">
+                        <div>
+                           <h2>Некий Господин<br /><span>Креативный Директор</span></h2>
+                        </div>
                      </div>
                   </div>
-               </div>
-               <div class="member" id="phil">
-                  <div class="imgBx">
-                     <img src="images/3.jpg" alt="Our expert image">
-                  </div>
-                  <div class="details">
-                     <div>
-                        <h2>Некий Господин<br /><span>Дизайнер</span></h2>
+                  <div class="member" id="phil">
+                     <div class="imgBx">
+                        <img src="images/3.jpg" alt="Our expert image">
+                     </div>
+                     <div class="details">
+                        <div>
+                           <h2>Некий Господин<br /><span>Дизайнер</span></h2>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   </div>
-   </div>
+   </section>
 
 
-   <footer aria-label="contacts" , role="contentinfo" , tabindex="12" aria-label="contentinfo" id="foot">
+   <section class="sec contact" id="contacter">
+
+      <div class="contact__title">
+         <div class="mxw800p" id="txtname" aria-label="title">
+            <h3>Отправьте Нам Сообщение</h3>
+
+         </div>
+      </div>
+      <div class="contact__form">
+         <div class="contactForm">
+            <form>
+               <div class="contact__fields" tabindex="2">
+                  <div class="row100" tabindex="2">
+                     <div class="inputBx50" id="urname" tabindex="2">
+                        <input type="text" name="sdc" placeholder="Имя">
+                     </div>
+                     <div class="inputBx50" id="urmail" tabindex="2">
+                        <input type="text" name="adsfv" placeholder="Адрес Электронной Почты">
+                     </div>
+                  </div>
+                  <div class="row100">
+                     <div class="inputBx100" id="urmessage" tabindex="2">
+                        <textarea placeholder="Ваше Сообщение"></textarea>
+                     </div>
+                  </div>
+                  <div class="row100">
+                     <div class="inputBx100" id="send" tabindex="2">
+                        <input type="submit" name="sadf" value="Пуск" />
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+   </section>
+   <footer role="contentinfo" tabindex="12" aria-label="contentinfo" id="foot">
       <h5 aria-label="Contact us">Contact us: </h5>
-      <div class="footer__icons" aria-label="Social medias" , tabindex="13">
-         <i class="fab fa-facebook-square" aria-label="Facebook" , tabindex="14" id="facebook"></i>
-         <i class="fab fa-vk" aria-label="Vk" , tabindex="15" id="vk"></i>
-         <i class="fab fa-instagram" aria-label="Instagram" , tabindex="16" id="inst"></i>
+      <div class="footer__icons" aria-label="Social medias" tabindex="13">
+         <i class="fab fa-facebook-square" aria-label="Facebook" tabindex="14" id="facebook"></i>
+         <i class="fab fa-vk" aria-label="Vk" tabindex="15" id="vk"></i>
+         <i class="fab fa-instagram" aria-label="Instagram" tabindex="16" id="inst"></i>
       </div>
    </footer>
 

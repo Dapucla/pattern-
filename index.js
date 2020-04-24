@@ -134,3 +134,39 @@ $('#inst').click(function () {
    mess.lang = 'en-US';
    snt.speak(mess);
 });
+
+$('#txtname').click(function () {
+   var snt = window.speechSynthesis,
+      mess = new SpeechSynthesisUtterance('Text Us');
+   mess.lang = 'en-US';
+   snt.speak(mess);
+});
+
+$('#urname').click(function () {
+   var snt = window.speechSynthesis,
+      mess = new SpeechSynthesisUtterance('Your name');
+   mess.lang = 'en-US';
+   snt.speak(mess);
+});
+
+$('#urmail').click(function () {
+   var snt = window.speechSynthesis,
+      mess = new SpeechSynthesisUtterance('Your Email');
+   mess.lang = 'en-US';
+   snt.speak(mess);
+});
+
+$('#urmessage').click(function () {
+   var snt = window.speechSynthesis,
+      mess = new SpeechSynthesisUtterance('Your message');
+   mess.lang = 'en-US';
+   snt.speak(mess);
+});
+
+
+$('#send').click(function () {
+   var snt = window.speechSynthesis,
+      mess = new SpeechSynthesisUtterance('Send your message');
+   mess.lang = 'en-US';
+   snt.speak(mess);
+});

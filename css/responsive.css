@@ -341,3 +341,127 @@ footer h5 {
    width: 400px;
    height: 300px;
 }
+
+.contact {
+   background: #142850;
+
+}
+
+.contact h3,
+.contact p {
+   color: #fff;
+}
+
+.contactForm {
+   position: relative;
+   max-width: 800px;
+   margin: 0 auto;
+   display: flex;
+}
+
+.contactForm form {
+   width: 100%;
+}
+
+.contactForm .row100 {
+   display: flex;
+   width: 100%;
+}
+
+.contactForm .row100 .inputBx50 {
+   width: 50%;
+   margin: 0 20px;
+}
+
+.contactForm .row100 .inputBx100 {
+   width: 100%;
+   margin: 0 20px;
+}
+
+.contactForm .row100 input,
+.contactForm .row100 textarea {
+   position: relative;
+   border: none;
+   border: 3px solid #fff;
+   color: #fff;
+   background: transparent;
+   width: 100%;
+   padding: 10px 0;
+   outline: none;
+   font-size: 18px;
+   font-weight: 300;
+   margin: 20px 0;
+   resize: none;
+}
+
+.contactForm .row100 textarea {
+   height: 100px;
+}
+
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea::placeholder {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.contactForm .row100 input[type="submit"] {
+   background: #fff;
+   color: #000;
+   max-width: 100px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   cursor: pointer;
+   font-weight: 500;
+}
+
+.mxw800p {
+   text-align: center;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.sec {
+   height: 100vh;
+   padding-top: 300px;
+}
+
+
+
+h3 {
+   font-size: 40px;
+}
+
+.inputBx50::placeholder {
+   color: red;
+}
+
+.inputBx100 {
+   display: flex;
+   justify-content: center;
+}
+
+.img-set1 {
+   width: 100px;
+   height: 100px;
+}
+
+
+
+.member {
+   width: 200px;
+   height: 800px;
+}
+
+.imgBx {
+   width: 200px;
+   height: 800px;
+}
+
+.img-set2 {
+   width: 200px;
+   height: 800px;
+}
+
+.details {
+   width: 200px;
+   height: 800px;
+}
