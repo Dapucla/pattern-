@@ -145,8 +145,8 @@ nav ul li {
 .teamBx .member {
    position: relative;
    background: #000;
-   min-height: 600px;
-   width: 450px;
+   min-height: 37.5;
+   width: 28.125rem;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -197,7 +197,7 @@ nav ul li {
 
 .teamBx .member .details h2 span {
    display: block;
-   font-size: 12px;
+   font-size: 0.75rem;
    font-weight: lighter;
 }
 
@@ -333,13 +333,13 @@ footer h5 {
 }
 
 .imgBx {
-   width: 400px;
-   height: 300px;
+   width: 25rem;
+   height: 18.75rem;
 }
 
 .member {
-   width: 400px;
-   height: 300px;
+   width: 25rem;
+   height: 18.75rem;
 }
 
 .contact {
@@ -354,7 +354,7 @@ footer h5 {
 
 .contactForm {
    position: relative;
-   max-width: 800px;
+   max-width: 50rem;
    margin: 0 auto;
    display: flex;
 }
@@ -388,14 +388,14 @@ footer h5 {
    width: 100%;
    padding: 10px 0;
    outline: none;
-   font-size: 18px;
+   font-size: 1.125rem;
    font-weight: 300;
    margin: 20px 0;
    resize: none;
 }
 
 .contactForm .row100 textarea {
-   height: 100px;
+   height: 6.25rem;
 }
 
 .contactForm .row100 input::placeholder,
@@ -406,7 +406,7 @@ footer h5 {
 .contactForm .row100 input[type="submit"] {
    background: #fff;
    color: #000;
-   max-width: 100px;
+   max-width: 6.25rem;
    text-transform: uppercase;
    letter-spacing: 2px;
    cursor: pointer;
@@ -415,19 +415,19 @@ footer h5 {
 
 .mxw800p {
    text-align: center;
-   max-width: 800px;
+   max-width: 50rem;
    margin: 0 auto;
 }
 
 .sec {
    height: 100vh;
-   padding-top: 300px;
+   padding-top: 18.75rem;
 }
 
 
 
 h3 {
-   font-size: 40px;
+   font-size: 2.5rem;
 }
 
 .inputBx50::placeholder {
@@ -440,28 +440,28 @@ h3 {
 }
 
 .img-set1 {
-   width: 100px;
-   height: 100px;
+   width: 6.25rem;
+   height: 6.25rem;
 }
 
 
 
 .member {
-   width: 200px;
-   height: 800px;
+   width: 12.5rem;
+   height: 50rem;
 }
 
 .imgBx {
-   width: 200px;
-   height: 800px;
+   width: 12.5rem;
+   height: 50rem;
 }
 
 .img-set2 {
-   width: 200px;
-   height: 800px;
+   width: 12.5rem;
+   height: 50rem;
 }
 
 .details {
-   width: 200px;
-   height: 800px;
+   width: 12.5rem;
+   height: 50rem;
 }

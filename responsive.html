@@ -164,23 +164,29 @@
       <div class="contact__form">
          <div class="contactForm">
             <form>
-               <div class="contact__fields" tabindex="2">
-                  <div class="row100" tabindex="2">
-                     <div class="inputBx50" id="urname" tabindex="2">
-                        <input type="text" name="sdc" placeholder="Имя">
+               <div class="contact__fields">
+                  <div class="row100">
+                     <div class="inputBx50" id="urname">
+                        <label for="username">
+                           <input type="text" name="sdc" placeholder="Имя" tabindex="1">
+                        </label>
                      </div>
-                     <div class="inputBx50" id="urmail" tabindex="2">
-                        <input type="text" name="adsfv" placeholder="Адрес Электронной Почты">
+                     <div class="inputBx50" id="urmail">
+                        <label for="email">
+                           <input type="text" name="adsfv" placeholder="Адрес Электронной Почты" tabindex="2">
+                        </label>
                      </div>
                   </div>
                   <div class="row100">
-                     <div class="inputBx100" id="urmessage" tabindex="2">
-                        <textarea placeholder="Ваше Сообщение"></textarea>
+                     <div class="inputBx100" id="urmessage">
+                        <label for="message">
+                           <textarea placeholder="Ваше Сообщение" tabindex="3"></textarea>
+                        </label>
                      </div>
                   </div>
                   <div class="row100">
-                     <div class="inputBx100" id="send" tabindex="2">
-                        <input type="submit" name="sadf" value="Пуск" />
+                     <div class="inputBx100" id="send">
+                        <input type="submit" name="sadf" value="Пуск" tabindex="4">
                      </div>
                   </div>
                </div>
@@ -188,12 +194,12 @@
          </div>
       </div>
    </section>
-   <footer role="contentinfo" tabindex="12" aria-label="contentinfo" id="foot">
+   <footer role="contentinfo" aria-label="contentinfo" id="foot">
       <h5 aria-label="Contact us">Contact us: </h5>
-      <div class="footer__icons" aria-label="Social medias" tabindex="13">
-         <i class="fab fa-facebook-square" aria-label="Facebook" tabindex="14" id="facebook"></i>
-         <i class="fab fa-vk" aria-label="Vk" tabindex="15" id="vk"></i>
-         <i class="fab fa-instagram" aria-label="Instagram" tabindex="16" id="inst"></i>
+      <div class="footer__icons" aria-label="Social medias">
+         <i class="fab fa-facebook-square" aria-label="Facebook" id="facebook"></i>
+         <i class="fab fa-vk" aria-label="Vk" id="vk"></i>
+         <i class="fab fa-instagram" aria-label="Instagram" id="inst"></i>
       </div>
    </footer>
 
