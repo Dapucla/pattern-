@@ -343,13 +343,13 @@ footer h5 {
 }
 
 .contact {
-   background: #142850;
+   background: #d4f3ef;
 
 }
 
 .contact h3,
 .contact p {
-   color: #fff;
+   color: black;
 }
 
 .contactForm {
@@ -382,8 +382,8 @@ footer h5 {
 .contactForm .row100 textarea {
    position: relative;
    border: none;
-   border: 3px solid #fff;
-   color: #fff;
+   border: 3px solid black;
+   /* color: #fff; */
    background: transparent;
    width: 100%;
    padding: 10px 0;
@@ -400,7 +400,7 @@ footer h5 {
 
 .contactForm .row100 input::placeholder,
 .contactForm .row100 textarea::placeholder {
-   color: rgba(255, 255, 255, 0.5);
+   color: rgba(20, 18, 18, 0.5);
 }
 
 .contactForm .row100 input[type="submit"] {
@@ -464,4 +464,24 @@ h3 {
 .details {
    width: 12.5rem;
    height: 50rem;
+}
+
+input:focus {
+   color: red;
+}
+
+.focus1:focus {
+   color: red;
+}
+
+.focus2:focus {
+   color: red;
+}
+
+.focus3:focus {
+   color: red;
+}
+
+.focus4:focus {
+   color: red;
 }
